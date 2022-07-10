@@ -28,7 +28,6 @@ class Employee {
 
     //Getters & Setters
 
-
     public Employee(int id, String name, String address, Date startTime) {
         this.id = id;
         this.name = name;
