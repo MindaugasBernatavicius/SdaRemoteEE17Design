@@ -167,5 +167,14 @@ public class _03_Builder {
                                                             .build();
 
         System.out.println(lunchOrder);
+
+
+        // The warning is because we are using a small string
+        // ... with small strings using a String object is more readable
+        StringBuilder str = new StringBuilder();
+        str.append("Hello ");
+        str.append("my ");
+        str.append("world ");
+        System.out.println(str.toString()); // equivalent build();
     }
 }
